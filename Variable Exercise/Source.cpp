@@ -40,6 +40,13 @@ void main()
 
 
 	//4. Ask the user for 5 numbers and output the average of these numbers.		
+	
+	int num1, num2, num3, num4, num5;
+	std::cout << "Enter Five Numbers\n";
+	std::cin >> num1, num2, num3, num4, num5;
+
+
+
 
 	//5. Redo question 3 but allows the user to input the values to be swapped and provide information
 	//in the console proving the data was swapped.

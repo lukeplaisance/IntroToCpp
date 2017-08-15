@@ -2,10 +2,15 @@
 
 void main()
 {
-	int inputA, inputB;
+	int inputA, inputB, inputC;
 	std::cout << "Enter Two Numbers\n";
 	std::cin >> inputA >> inputB;
 	std::cout << "\n";
-	int middleMan = 8;
+	int inputA = inputC;
+	int inputC = inputA;
+	int inputA = inputB;
+	std::cout << 
+
+
 
 }

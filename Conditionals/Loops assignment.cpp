@@ -40,20 +40,32 @@ int loops()
 	//- For multiples of 3 and 5 print “FizzBuzz”
 	//- Otherwise print the number.
 	//Note, you will need to use the modulus operator (%)
+	
+	for (int i = 0; i < 100; i += 1)
+	{
+		int remainder = i % 5;
+		if (remainder == 0 && i > 0)
+			std::cout << i << "is a multiple\n";
+		std::cout << "nummod5 is ... => " << remainder << "\n";
+	}
+	
 
+
+	
+	
 
 	//3. Repeat problem 2 using a while loop and a do while loop.
 	//while loop
 
 
 	//4. Create a loop that prints all even numbers between 0 and 100, without printing 0 or 100
-	
-	for (int i = 2; i < 100; i += 2)
 	{
-		std::cout << i << std::endl;
+		for (int i = 2; i < 100; i += 2)
+		{
+			std::cout << i << std::endl;
+		}
+
 	}
-	
-	
 	
 	
 	

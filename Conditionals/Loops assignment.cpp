@@ -44,14 +44,15 @@ int loops()
 	for (int i = 0; i < 100; i += 1)
 	{
 		int remainder = i % 5;
-		if (remainder == 0 && i > 0)
-			std::cout << i << "Buzz\n";
-		std::cout << "nummod5 is ... => " << remainder << "\n";
 		int remainderTwo = i % 3;
-		if (remainderTwo == 0 && i > 0)
-			std::cout << i << "Fizz";
-		else if (remainder == remainderTwo)
+		if (i % 3 && i % 5 == i > 0)
 			std::cout << "FizzBuzz\n";
+		else if (remainder == 0 && i > 0)
+			std::cout << i << "Buzz\n";				
+		else if (remainderTwo == 0 && i > 0)
+			std::cout << i << "Fizz";
+		
+		
 
 	}
 	
@@ -63,6 +64,8 @@ int loops()
 	//3. Repeat problem 2 using a while loop and a do while loop.
 	//while loop
 
+	int i = 0
+		
 
 	//4. Create a loop that prints all even numbers between 0 and 100, without printing 0 or 100
 	{

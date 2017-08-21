@@ -78,9 +78,10 @@ int main()
 
 	{
 		int x = 100;
-		int y = 0;
 		if (int x = 100)
-			std::cout << "y is eqaul to 0";
+			int y = 0;
+		
+			
 
 		
 		

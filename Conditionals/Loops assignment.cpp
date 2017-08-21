@@ -45,8 +45,14 @@ int loops()
 	{
 		int remainder = i % 5;
 		if (remainder == 0 && i > 0)
-			std::cout << i << "is a multiple\n";
+			std::cout << i << "Buzz\n";
 		std::cout << "nummod5 is ... => " << remainder << "\n";
+		int remainderTwo = i % 3;
+		if (remainderTwo == 0 && i > 0)
+			std::cout << i << "Fizz";
+		else if (remainder == remainderTwo)
+			std::cout << "FizzBuzz\n";
+
 	}
 	
 

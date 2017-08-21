@@ -76,15 +76,15 @@ int main()
 
 	//2. Write an if statement that assigns 100 to the value of x when y is equal to zero
 
-//int x, y;
-//if (y == 0)
-//{
-	//x = 100;
-//}
-//else
-//{
-	//x = 9
-//} 
+	{
+		int x = 100;
+		int y = 0;
+		if (int x = 100)
+			std::cout << "y is eqaul to 0";
+
+		
+		
+	}
 
 
 
@@ -110,49 +110,102 @@ int main()
 	std::cin >> userinputMonth;
 	switch (userinputMonth)
 	{
-	case 1:		
-		std::cout << "January has 31 days";
-		break;
-	case 2:
-		std::cout << "Febuary has 28 days";
-		break;
-	case 3:
-		std::cout << "March has 31 days";
-		break;
-	case 4:
-		std::cout << "April has 30 days";
-		break;
-	case 5:
-		std::cout << "April has 31 days";
-		break;
-	case 6:
-		std::cout << "June has 30 days";
-		break;
-	case 7:
-		std::cout << "July has 31 days";
-		break;
-	case 8:
-		std::cout << "August has 31 days";
-		break;
-	case 9:
-		std::cout << "September has 30 days";
-		break;
-	case 10:
-		std::cout << "October has 31 days";
-		break;
-	case 11:
-		std::cout << "November has 30 days";
-		break;
-	case 12:
-		std::cout << "December has 31 days";
-		break;
-	
+		int userinputMonth;
+		int days = 0;
+		std::cout << "Enter a number for the month \n";
+		std::cin >> userinputMonth;
+		switch (userinputMonth)
+		{
+		case 1:
+			std::cout << "January has 31 days";
+			break;
+		case 2:
+			std::cout << "Febuary has 28 days";
+			break;
+		case 3:
+			std::cout << "March has 31 days";
+			break;
+		case 4:
+			std::cout << "April has 30 days";
+			break;
+		case 5:
+			std::cout << "April has 31 days";
+			break;
+		case 6:
+			std::cout << "June has 30 days";
+			break;
+		case 7:
+			std::cout << "July has 31 days";
+			break;
+		case 8:
+			std::cout << "August has 31 days";
+			break;
+		case 9:
+			std::cout << "September has 30 days";
+			break;
+		case 10:
+			std::cout << "October has 31 days";
+			break;
+		case 11:
+			std::cout << "November has 30 days";
+			break;
+		case 12:
+			std::cout << "December has 31 days";
+			break;
+
+
+		}
 		
-	}
 
 
 	//4. Redo problem 3 using if statements
 
+	int userinputMonth;
+	int days = 0;
+	std::cout << "Enter a number for the month \n";
+	std::cin >> userinputMonth;
+	{
+	
+	if(userinputMonth = 1)
+		std::cout << "January has 31 days";
+	
+		else if (userinputMonth = 2)
+		std::cout << "Febuary has 28 days";
+		
+		else if (userinputMonth = 3)
+		std::cout << "March has 31 days";
+		
+		else if (userinputMonth = 4)
+		std::cout << "April has 30 days";
+		
+		else if (userinputMonth = 5)
+		std::cout << "April has 31 days";
+		
+		else if (userinputMonth = 6)
+
+	    std::cout << "June has 30 days";
+		
+		else if (userinputMonth = 7)
+		std::cout << "July has 31 days";
+		
+		else if (userinputMonth = 8)
+		std::cout << "August has 31 days";
+		
+		else if (userinputMonth = 9)
+		std::cout << "September has 30 days";
+		
+		else if (userinputMonth = 10)
+		std::cout << "October has 31 days";
+	
+		else if (userinputMonth = 11)
+		std::cout << "November has 30 days";
+
+		else if (userinputMonth = 12)
+		std::cout << "December has 31 days";
+		break;
+
+
+	}
 
 	//5. Convert problem 2 into a ternary operator
 

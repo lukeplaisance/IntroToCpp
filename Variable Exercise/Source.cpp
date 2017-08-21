@@ -30,13 +30,24 @@ void main()
 	//and store the result in variables called “a” and “b” print the result to screen.Write code 
 	//that swaps the values for these variables, then print the variables “a” and “b” again.
 	//You should comment your code.
+	{
+		int inputa;
+		int inputb;
+		int inputc;
+		std::cout << "Enter numbers\n";
+		std::cin >> inputa;
+		std::cin >> inputb;
+		inputa == inputc;
+		inputa -= inputb;
+		inputc += inputb;
 
-	int input;
-	std::cout << "Enter number\n";
-	std::cin >> input;
-	std::cout << input;
-	std::cout << "\n";
-	system("pause");
+	}
+
+
+
+
+
+	
 
 
 	//4. Ask the user for 5 numbers and output the average of these numbers.		

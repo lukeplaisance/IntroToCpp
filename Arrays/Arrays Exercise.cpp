@@ -61,13 +61,21 @@ int main()
 		//to the console.
 
 	int numbers[5];
-	int userinput;
-	std::cout << "Enter five numbers into arrays";
-	std::cin >> userinput;
-	for (int i = 0; i < 5; i++)
-	{
+	char userinputa = 0;
+	char userinputb = 0;
+	char userinputc = 0;
+	char userinputd = 0;
+	char userinpute = 0;
 		
-	}
+	std::cout << "Enter five numbers into arrays\n";
+	std::cin >> userinputa >> userinputb >> userinputc >> userinputd >> userinpute;
+
+
+
+	
+	
+		
+	
 
 	
 	 
@@ -75,4 +83,19 @@ int main()
 
         //7. Create a program that creates a small 3x3 array of integers.Use a nested for 
 		//loop to initialise the numbers 1 - 9. Output the numbers in a grid format.
+
+	//int grid[3][3] = { { 1,2,3 }, {4,5,6}, {7,8,9} };
+	//for (int i = 0; i < 3; i++)
+	//{
+		//std::cout << "boi" << i << ": ";
+		//for (int j = 0; j < 3; j++)
+		//{
+			//std::cout << grid[i][j] << ",";
+		//}
+		//std::cout << std::endl;
+	//}
+	
+
+
+
 	}

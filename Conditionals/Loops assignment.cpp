@@ -41,6 +41,9 @@ int loops()
 	//- Otherwise print the number.
 	//Note, you will need to use the modulus operator (%)
 	
+	void Remainders (int remainder, int remainderTwo)
+
+	
 	for (int i = 0; i < 100; i += 1)
 	{
 		int remainder = i % 5;

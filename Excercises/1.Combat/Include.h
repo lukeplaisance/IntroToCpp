@@ -1,0 +1,11 @@
+#pragma once
+#include "Entity.h"
+#include <iostream>
+#include "Spartan.h"
+#include "Robot.h"
+#include "Ninja.h"
+#include "Assassin.h"
+#include "Witcher.h"
+#include "Nord.h"
+#include "Solider.h"
+#include <vector>

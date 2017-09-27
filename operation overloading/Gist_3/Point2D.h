@@ -15,14 +15,3 @@ public:
 	void PrintPoint();
 	bool operator ==(const Point2D & other);
 };
-class Player
-{
-	char* mName;
-	Point2D mPosition;
-	int mHealth;
-public:
-	Player();
-	Player(char* name);
-	void Move(char position);
-	void SetPosition(Point2D* newPos);
-};

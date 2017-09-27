@@ -1,13 +1,13 @@
 #pragma once
-
-//class Person
-//{
-//	int mAge;
-//	char *mName;
-//	float mColor[3];
-//public:
-//	Person();
-//	Person(char *name, int age, float *color);
-//	void DisplayInfo();
-//	Person operator + (const Person& ohta);
-//};
+#include "Point2D.h"
+class Player
+{
+	char* mName;
+	Point2D* mPosition;
+	int mHealth;
+public:
+	Player();
+	Player(char* name);
+	void Move(char direction);
+	void SetPosition(Point2D* newPos);
+};

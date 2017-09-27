@@ -1,6 +1,6 @@
 #include <iostream>
 #include "Point2D.h"
-
+#include "Player.h"
 
 Point2D::Point2D()
 {
@@ -16,7 +16,7 @@ Point2D::Point2D(float x, float y)
 Point2D Point2D::operator+(const Point2D & other)
 {
 	Point2D temp;
-	 temp.mX = mY + other.mX;
+	 temp.mX = mX + other.mX;
 	 temp.mY = mY + other.mY;
 	 return temp;
 }
@@ -24,7 +24,7 @@ Point2D Point2D::operator+(const Point2D & other)
 Point2D Point2D::operator-(const Point2D & other)
 {
 	Point2D temp;
-	temp.mX = mY - other.mX;
+	temp.mX = mX - other.mX;
 	temp.mY = mY - other.mY;
 	return temp;
 }
@@ -32,7 +32,7 @@ Point2D Point2D::operator-(const Point2D & other)
 Point2D Point2D::operator*(const Point2D & other)
 {
 	Point2D temp;
-	temp.mX = mY * other.mX;
+	temp.mX = mX * other.mX;
 	temp.mY = mY * other.mY;
 	return temp;
 }
@@ -72,23 +72,4 @@ bool Point2D::operator == (const Point2D & other)
 
 	
 
-}
-
-Player::Player()
-{
-}
-
-Player::Player(char * name)
-{
-	mName = name;
-}
-
-void Player::Move(char position)
-{
-	
-}
-
-void Player::SetPosition(Point2D * newPos)
-{
-	
 }
